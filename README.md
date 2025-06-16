@@ -1,26 +1,3 @@
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/13eaa8ad-e162-496c-b093-80b8a059c6b4
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/13eaa8ad-e162-496c-b093-80b8a059c6b4) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
@@ -50,24 +27,13 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+to install and run manually
 
-This project is built with:
+Create a new file called .env.local and add these exact lines:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+VITE_SUPABASE_URL=https://zuawgikivwqvkdxbqdyj.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp1YXdnaWtpdndxdmtkeGJxZHlqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk4NDkxMDMsImV4cCI6MjA2NTQyNTEwM30.F1L5BAWNFJ3YxY9y41QqMut-oRiMqBlBo72E66KA5y8
 
-## How can I deploy this project?
+npm install
 
-Simply open [Lovable](https://lovable.dev/projects/13eaa8ad-e162-496c-b093-80b8a059c6b4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+npm run dev
